@@ -1,3 +1,10 @@
+# Lab11Web 
+
+###### Nama : Fara Deviana
+###### NIM : 312010407
+###### Kelas : TI.A.2
+
+
 Instruksi Praktikum
 
 1. Persiapkan text editor misalnya VSCode.
@@ -16,7 +23,14 @@ mudah menggunakannya.
 Untuk membuat pagination, buka Kembali Controller Artikel, kemudian modifikasi
 kode pada method admin_index seperti berikut.
 
-gambar 1
+![](img/1%20satu1.jpg)
+![](img/2%20dua.jpg)
+![](img/3%20tiga.jpg)
+![](img/4%20empat.jpg)
+![](img/5%20lima.jpg)
+![](img/5%20lima2.jpg)
+![](img/6%20enam.jpg)
+
 
 Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut
 dibawah deklarasi tabel data.
