@@ -23,19 +23,9 @@ mudah menggunakannya.
 Untuk membuat pagination, buka Kembali Controller Artikel, kemudian modifikasi
 kode pada method admin_index seperti berikut.
 
-![](img/1%20satu1.jpg)
-![](img/2%20dua.jpg)
-![](img/3%20tiga.jpg)
-![](img/4%20empat.jpg)
-![](img/5%20lima.jpg)
-![](img/5%20lima2.jpg)
-![](img/6%20enam.jpg)
-
-
 Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut
 dibawah deklarasi tabel data.
 
-gambar 2
 
 Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat
 hasilnya.
@@ -46,36 +36,54 @@ Pencarian data digunakan untuk memfilter data.
 Untuk membuat pencarian data, buka kembali Controller Artikel, pada method
 admin_index ubah kodenya seperti berikut
 
-gambar 3
+![](img/1%20satu1.jpg)
+
+
 
 Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form
 pencarian sebelum deklarasi tabel seperti berikut:
 
-gambar 4
+![](img/2%20dua.jpg)
+
 
 Dan pada link pager ubah seperti berikut.\
 
-gambar 5
+![](img/3%20tiga.jpg)
 
 Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata
 kunci tertentu pada form pencarian.
 
-gambar 6
+![](img/4%20empat.jpg)
 
 Upload Gambar
 Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller
 Artikel, sesuaikan kode pada method add seperti berikut:
 
-
-gambar 7
+![](img/5%20lima.jpg)
 
 Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti
 berikut
 
-gambar 8
-
 Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
+
+![](img/5%20lima2.jpg)
 
 Ujicoba file upload dengan mengakses menu tambah artikel.
 
-gambar akhir
+![](img/6%20enam.jpg)
+
+
+Pertanyaan dan Tugas
+
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan 
+improvisasi.
+
+Laporan Praktikum
+
+1. Melanjutkan praktikum sebelumnya pada repository dengan nama Lab11Web.
+2. Kerjakan semua latihan yang diberikan sesuai urutannya.
+3. Screenshot setiap perubahannya.
+4. Update file README.md dan tuliskan penjelasan dari setiap langkah praktikum 
+beserta screenshotnya.
+5. Commit hasilnya pada repository masing-masing.
+6. Kirim URL repository pada e-learning ecampus
